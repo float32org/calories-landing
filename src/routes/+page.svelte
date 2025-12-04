@@ -33,13 +33,13 @@
 </script>
 
 <svelte:head>
-	<title>Calories - AI-Powered Nutrition Tracking</title>
+	<title>Calories - Track your nutrition, simply.</title>
 	<meta
 		name="description"
 		content="Track your nutrition simply with AI-powered meal logging, calorie tracking, and personalized insights. Snap a photo or describe your meal to get instant nutritional estimates."
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Calories - AI-Powered Nutrition Tracking" />
+	<meta property="og:title" content="Calories - Track your nutrition, simply." />
 	<meta
 		property="og:description"
 		content="Track your nutrition simply with AI-powered meal logging, calorie tracking, and personalized insights."
@@ -47,7 +47,7 @@
 	<meta property="og:url" content="https://burncalories.app" />
 	<meta property="og:site_name" content="Calories" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Calories - AI-Powered Nutrition Tracking" />
+	<meta name="twitter:title" content="Calories - Track your nutrition, simply." />
 	<meta
 		name="twitter:description"
 		content="Track your nutrition simply with AI-powered meal logging, calorie tracking, and personalized insights."
