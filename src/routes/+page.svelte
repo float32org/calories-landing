@@ -15,8 +15,7 @@
 		LayoutDashboard,
 		Refrigerator,
 		Scale,
-		Sparkles,
-		Utensils
+		Sparkles
 	} from '@lucide/svelte';
 	import Moon from '@lucide/svelte/icons/moon';
 	import Sun from '@lucide/svelte/icons/sun';
@@ -315,14 +314,7 @@
 											class="w-1 shrink-0 rounded-l-2xl"
 											style="background-color: var(--chart-1)"
 										></div>
-										<div class="relative w-20 shrink-0">
-											<div
-												class="absolute inset-0 flex items-center justify-center bg-linear-to-br from-muted/80 to-muted/40"
-											>
-												<Utensils class="size-5 text-muted-foreground/30" />
-											</div>
-										</div>
-										<div class="flex min-w-0 flex-1 flex-col justify-center p-2">
+										<div class="flex min-w-0 flex-1 flex-col justify-center p-2 pl-3">
 											<div class="flex items-start justify-between gap-2">
 												<div class="min-w-0 flex-1">
 													<h3 class="line-clamp-1 font-bold leading-snug text-foreground">
