@@ -5,17 +5,18 @@
 	import {
 		ArrowRight,
 		Camera,
+		ChartLine,
 		Check,
 		ChevronLeft,
 		ChevronRight,
 		Droplets,
 		Ellipsis,
-		Goal,
 		Hamburger,
 		LayoutDashboard,
 		Refrigerator,
 		Scale,
-		Sparkles
+		Sparkles,
+		TrendingDown
 	} from '@lucide/svelte';
 	import Moon from '@lucide/svelte/icons/moon';
 	import Sun from '@lucide/svelte/icons/sun';
@@ -125,7 +126,7 @@
 									<Refrigerator class="size-4 text-muted-foreground" />
 								</div>
 								<div class="size-8 rounded-md border flex items-center justify-center">
-									<Goal class="size-4 text-muted-foreground" />
+									<ChartLine class="size-4 text-muted-foreground" />
 								</div>
 								<div
 									class="size-8 rounded-md bg-primary text-primary-foreground flex items-center justify-center text-xs font-medium"
@@ -230,19 +231,36 @@
 											class="stroke-muted"
 											stroke-width="3"
 										/>
+										<circle
+											cx="20"
+											cy="20"
+											r="16"
+											fill="none"
+											class="stroke-primary"
+											stroke-width="3"
+											stroke-linecap="round"
+											stroke-dasharray="100.53"
+											stroke-dashoffset="85"
+										/>
 									</svg>
 									<Scale class="absolute inset-0 m-auto size-5 text-muted-foreground" />
 								</div>
 								<div class="min-w-0 flex-1">
 									<div class="flex items-baseline gap-1">
-										<span class="text-lg font-bold tabular-nums">200</span>
+										<span class="text-lg font-bold tabular-nums">197</span>
 										<span class="text-xs text-muted-foreground">/ 180 lbs</span>
 									</div>
 									<span
 										class="text-[10px] font-medium uppercase tracking-wider text-muted-foreground"
 									>
-										Not logged · 20.0 lbs to go
+										Logged · 17.0 lbs to go
 									</span>
+								</div>
+								<div
+									class="flex items-center gap-1 rounded-lg bg-emerald-500/10 px-2 py-1 text-xs font-bold text-emerald-500"
+								>
+									<TrendingDown class="size-3" />
+									-3.0
 								</div>
 							</div>
 							<div class="flex shrink-0 items-center gap-3 rounded-xl bg-muted/30 p-3">
