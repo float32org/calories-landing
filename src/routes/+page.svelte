@@ -7,6 +7,7 @@
 		Camera,
 		ChartLine,
 		Check,
+		ChefHat,
 		ChevronLeft,
 		ChevronRight,
 		Droplets,
@@ -119,15 +120,15 @@
 								Calories
 							</div>
 							<div class="flex items-center gap-1">
-								<div class="size-8 rounded-md border flex items-center justify-center">
-									<Sparkles class="size-4 text-muted-foreground" />
-								</div>
-								<div class="size-8 rounded-md border flex items-center justify-center">
+								<Button variant="outline" size="icon-sm">
+									<ChefHat class="size-4 text-muted-foreground" />
+								</Button>
+								<Button variant="outline" size="icon-sm">
 									<Refrigerator class="size-4 text-muted-foreground" />
-								</div>
-								<div class="size-8 rounded-md border flex items-center justify-center">
+								</Button>
+								<Button variant="outline" size="icon-sm">
 									<ChartLine class="size-4 text-muted-foreground" />
-								</div>
+								</Button>
 								<div
 									class="size-8 rounded-md bg-primary text-primary-foreground flex items-center justify-center text-xs font-medium"
 								>
@@ -136,13 +137,17 @@
 							</div>
 						</div>
 						<div class="p-4 space-y-3 bg-background">
-							<div class="flex items-center justify-between px-2">
-								<ChevronLeft class="size-5 text-muted-foreground" />
+							<div class="flex items-center justify-between">
+								<div class="size-9 flex items-center justify-center rounded-md hover:bg-muted">
+									<ChevronLeft class="size-4 text-muted-foreground" />
+								</div>
 								<div class="text-center">
 									<div class="text-xs text-muted-foreground">2025</div>
 									<div class="font-bold">Today</div>
 								</div>
-								<ChevronRight class="size-5 text-muted-foreground" />
+								<div class="size-9 flex items-center justify-center rounded-md hover:bg-muted">
+									<ChevronRight class="size-4 text-muted-foreground" />
+								</div>
 							</div>
 							<div class="flex flex-col items-center justify-center py-2">
 								<div class="relative" style="width: 200px; height: 200px;">
@@ -322,7 +327,10 @@
 								<div class="flex items-center justify-between mb-3">
 									<div class="flex items-center gap-2">
 										<span class="font-bold">Meals</span>
-										<span class="text-xs bg-muted px-1.5 py-0.5 rounded">1</span>
+										<span
+											class="text-xs bg-muted px-2 py-1 rounded-full font-medium text-muted-foreground"
+											>1</span
+										>
 									</div>
 									<Button size="sm" class="h-8 rounded-lg font-semibold">+ Log Meal</Button>
 								</div>
