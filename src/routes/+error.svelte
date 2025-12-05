@@ -42,7 +42,7 @@
 				<a href="/#features" class="hover:text-foreground transition-colors">Features</a>
 				<a href="/#pricing" class="hover:text-foreground transition-colors">Pricing</a>
 				<a
-					href="https://github.com/joeychilson/calories"
+					href="https://github.com/float32org/calories"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="hover:text-foreground transition-colors">GitHub</a

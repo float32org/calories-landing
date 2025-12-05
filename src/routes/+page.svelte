@@ -70,7 +70,7 @@
 				<a href="#features" class="hover:text-foreground transition-colors">Features</a>
 				<a href="#pricing" class="hover:text-foreground transition-colors">Pricing</a>
 				<a
-					href="https://github.com/joeychilson/calories"
+					href="https://github.com/float32org/calories"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="hover:text-foreground transition-colors">GitHub</a
@@ -536,7 +536,7 @@
 					<p class="text-center text-xs text-muted-foreground/60 mt-6">
 						Prefer to self-host?
 						<a
-							href="https://github.com/joeychilson/calories"
+							href="https://github.com/float32org/calories"
 							target="_blank"
 							rel="noopener noreferrer"
 							class="underline hover:text-muted-foreground"
@@ -564,7 +564,7 @@
 					<a href="#features" class="hover:text-foreground transition-colors">Features</a>
 					<a href="#pricing" class="hover:text-foreground transition-colors">Pricing</a>
 					<a
-						href="https://github.com/joeychilson/calories"
+						href="https://github.com/float32org/calories"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="hover:text-foreground transition-colors">GitHub</a

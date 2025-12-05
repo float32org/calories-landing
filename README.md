@@ -1,6 +1,6 @@
 # Calories Landing Page
 
-Marketing site for [Calories](https://github.com/joeychilson/calories), an AI-powered nutrition tracking app.
+Marketing site for [Calories](https://github.com/float32org/calories), an AI-powered nutrition tracking app.
 
 ## Tech Stack
 
@@ -12,7 +12,7 @@ Marketing site for [Calories](https://github.com/joeychilson/calories), an AI-po
 
 ```bash
 # Clone the repository
-git clone https://github.com/joeychilson/calories-landing.git
+git clone https://github.com/float32org/calories-landing.git
 cd calories-landing
 
 # Install dependencies
@@ -43,5 +43,5 @@ MIT
 
 ## Links
 
-- [Main App](https://github.com/joeychilson/calories)
+- [Main App](https://github.com/float32org/calories)
 - [Live Site](https://burncalories.app)
