@@ -573,7 +573,7 @@
 					<a href={resolve('/terms')} class="hover:text-foreground transition-colors">Terms</a>
 				</nav>
 				<p class="text-sm text-muted-foreground">
-					&copy; {new Date().getFullYear()} Calories
+					&copy; {new Date().getFullYear()} float32
 				</p>
 			</div>
 		</div>
