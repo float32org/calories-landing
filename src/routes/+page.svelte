@@ -179,13 +179,13 @@
 								</div>
 								<div class="mt-2 flex items-center gap-6">
 									<div class="flex flex-col items-center gap-1">
-										<span class="text-sm font-bold" style="color: oklch(0.65 0.14 25)">
+										<span class="text-sm font-bold" style="color: oklch(0.65 0.12 250)">
 											24<span class="text-muted-foreground/60 font-medium">/182g</span>
 										</span>
 										<div class="h-1.5 w-16 overflow-hidden rounded-full bg-muted">
 											<div
 												class="h-full rounded-full"
-												style="width: 13%; background: oklch(0.65 0.14 25)"
+												style="width: 13%; background: oklch(0.65 0.12 250)"
 											></div>
 										</div>
 										<span
@@ -194,13 +194,13 @@
 										>
 									</div>
 									<div class="flex flex-col items-center gap-1">
-										<span class="text-sm font-bold" style="color: oklch(0.65 0.10 250)">
+										<span class="text-sm font-bold" style="color: oklch(0.75 0.14 70)">
 											72<span class="text-muted-foreground/60 font-medium">/212g</span>
 										</span>
 										<div class="h-1.5 w-16 overflow-hidden rounded-full bg-muted">
 											<div
 												class="h-full rounded-full"
-												style="width: 34%; background: oklch(0.65 0.10 250)"
+												style="width: 34%; background: oklch(0.75 0.14 70)"
 											></div>
 										</div>
 										<span
@@ -209,13 +209,13 @@
 										>
 									</div>
 									<div class="flex flex-col items-center gap-1">
-										<span class="text-sm font-bold" style="color: oklch(0.75 0.12 85)">
+										<span class="text-sm font-bold" style="color: oklch(0.65 0.16 15)">
 											36<span class="text-muted-foreground/60 font-medium">/94g</span>
 										</span>
 										<div class="h-1.5 w-16 overflow-hidden rounded-full bg-muted">
 											<div
 												class="h-full rounded-full"
-												style="width: 38%; background: oklch(0.75 0.12 85)"
+												style="width: 38%; background: oklch(0.65 0.16 15)"
 											></div>
 										</div>
 										<span
@@ -354,17 +354,17 @@
 												<div class="flex items-center gap-1">
 													<span
 														class="rounded-md px-1.5 py-0.5 text-[10px] font-semibold"
-														style="background: oklch(0.65 0.14 25 / 0.15); color: oklch(0.65 0.14 25)"
+														style="background: oklch(0.65 0.12 250 / 0.15); color: oklch(0.65 0.12 250)"
 														>24g P</span
 													>
 													<span
 														class="rounded-md px-1.5 py-0.5 text-[10px] font-semibold"
-														style="background: oklch(0.65 0.10 250 / 0.15); color: oklch(0.65 0.10 250)"
+														style="background: oklch(0.75 0.14 70 / 0.15); color: oklch(0.75 0.14 70)"
 														>72g C</span
 													>
 													<span
 														class="rounded-md px-1.5 py-0.5 text-[10px] font-semibold"
-														style="background: oklch(0.75 0.12 85 / 0.15); color: oklch(0.75 0.12 85)"
+														style="background: oklch(0.65 0.16 15 / 0.15); color: oklch(0.65 0.16 15)"
 														>36g F</span
 													>
 												</div>
