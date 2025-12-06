@@ -5,16 +5,16 @@
 	import {
 		ArrowRight,
 		Camera,
-		ChartLine,
+		ChartNoAxesCombined,
 		Check,
 		ChefHat,
 		ChevronLeft,
 		ChevronRight,
+		CookingPot,
 		Droplets,
 		Ellipsis,
 		Hamburger,
 		LayoutDashboard,
-		Refrigerator,
 		Scale,
 		Sparkles,
 		TrendingDown
@@ -124,10 +124,10 @@
 									<ChefHat class="size-4 text-muted-foreground" />
 								</Button>
 								<Button variant="outline" size="icon-sm">
-									<Refrigerator class="size-4 text-muted-foreground" />
+									<CookingPot class="size-4 text-muted-foreground" />
 								</Button>
 								<Button variant="outline" size="icon-sm">
-									<ChartLine class="size-4 text-muted-foreground" />
+									<ChartNoAxesCombined class="size-4 text-muted-foreground" />
 								</Button>
 								<div
 									class="size-8 rounded-md bg-primary text-primary-foreground flex items-center justify-center text-xs font-medium"
@@ -438,7 +438,8 @@
 						</div>
 						<h3 class="text-base font-bold mb-2">AI Food Assistant</h3>
 						<p class="text-sm text-muted-foreground leading-relaxed">
-							Get personalized meal suggestions and nutrition advice. Learns your preferences over time.
+							Get personalized meal suggestions and nutrition advice. Learns your preferences over
+							time.
 						</p>
 					</div>
 
