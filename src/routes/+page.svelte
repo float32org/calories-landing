@@ -24,34 +24,35 @@
 	import { toggleMode } from 'mode-watcher';
 
 	const features = [
-		'Unlimited AI meal analysis',
-		'Photo-based calorie tracking',
-		'Personal AI nutrition assistant',
-		'Weight tracking & goals',
-		'Preference learning',
+		'Log meals by photo or text',
+		'Personal food assistant',
+		'Calorie & macro tracking',
+		'Weight & water tracking',
+		'Pantry & shopping lists',
+		'Progress charts & streaks',
 		'7-day free trial'
 	];
 </script>
 
 <svelte:head>
-	<title>Calories - Track your nutrition, simply.</title>
+	<title>Calories - Track your food and nutrition, simply.</title>
 	<meta
 		name="description"
-		content="Track your nutrition simply with AI-powered meal logging, calorie tracking, and personalized insights. Snap a photo or describe your meal to get instant nutritional estimates."
+		content="The simple way to track what you eat. Log meals with a photo or a sentence. Track calories, macros, weight, water, and progress—all in one place."
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Calories - Track your nutrition, simply." />
+	<meta property="og:title" content="Calories - Track your food and nutrition, simply." />
 	<meta
 		property="og:description"
-		content="Track your nutrition simply with AI-powered meal logging, calorie tracking, and personalized insights."
+		content="Log meals with a photo or a sentence. Track calories, macros, weight, water, and progress—all in one place."
 	/>
 	<meta property="og:url" content="https://burncalories.app" />
 	<meta property="og:site_name" content="Calories" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Calories - Track your nutrition, simply." />
+	<meta name="twitter:title" content="Calories - Track your food and nutrition, simply." />
 	<meta
 		name="twitter:description"
-		content="Track your nutrition simply with AI-powered meal logging, calorie tracking, and personalized insights."
+		content="Log meals with a photo or a sentence. Track calories, macros, weight, water, and progress—all in one place."
 	/>
 </svelte:head>
 
@@ -94,10 +95,10 @@
 			<div class="container px-4 md:px-6 mx-auto">
 				<div class="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto mb-12">
 					<h1 class="text-4xl md:text-6xl font-bold tracking-tight text-balance">
-						Track your nutrition, <span class="text-primary">simply.</span>
+						Track your food and nutrition, <span class="text-primary">simply.</span>
 					</h1>
 					<p class="text-lg text-muted-foreground text-balance max-w-xl">
-						Log meals, track water, and reach your weight goals with AI-powered insights.
+						Log meals with a snap or a sentence. Track weight, water, and progress—all in one place.
 					</p>
 					<div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
 						<Button size="lg" class="gap-2" href="{PUBLIC_APP_URL}/signin">
@@ -395,10 +396,10 @@
 			<div class="container px-4 md:px-6 mx-auto">
 				<div class="text-center max-w-2xl mx-auto mb-16">
 					<h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-						Everything you need to stay on track
+						Everything you need, nothing you don't
 					</h2>
 					<p class="text-muted-foreground text-lg">
-						Simple, powerful tools to help you reach your goals.
+						Simple tools to help you eat better and feel good.
 					</p>
 				</div>
 
@@ -410,9 +411,9 @@
 						>
 							<Camera class="size-5" />
 						</div>
-						<h3 class="text-base font-bold mb-2">AI Meal Logging</h3>
+						<h3 class="text-base font-bold mb-2">Easy Meal Logging</h3>
 						<p class="text-sm text-muted-foreground leading-relaxed">
-							Snap a photo or describe your meal. AI estimates calories and macros instantly.
+							Snap a photo or just describe what you ate. We estimate calories and macros for you.
 						</p>
 					</div>
 
@@ -423,9 +424,10 @@
 						>
 							<LayoutDashboard class="size-5" />
 						</div>
-						<h3 class="text-base font-bold mb-2">Smart Dashboard</h3>
+						<h3 class="text-base font-bold mb-2">See Your Progress</h3>
 						<p class="text-sm text-muted-foreground leading-relaxed">
-							Track calories, protein, carbs, and fat with visual progress rings and daily history.
+							Visual rings show your daily calories and macros at a glance. Track streaks and see
+							trends over time.
 						</p>
 					</div>
 
@@ -436,10 +438,10 @@
 						>
 							<Sparkles class="size-5" />
 						</div>
-						<h3 class="text-base font-bold mb-2">AI Food Assistant</h3>
+						<h3 class="text-base font-bold mb-2">Personal Food Assistant</h3>
 						<p class="text-sm text-muted-foreground leading-relaxed">
-							Get personalized meal suggestions and nutrition advice. Learns your preferences over
-							time.
+							Ask for meal ideas, get suggestions based on what's in your kitchen, and save recipes.
+							It learns what you like.
 						</p>
 					</div>
 
@@ -450,9 +452,10 @@
 						>
 							<Scale class="size-5" />
 						</div>
-						<h3 class="text-base font-bold mb-2">Weight & Water Tracking</h3>
+						<h3 class="text-base font-bold mb-2">Weight & Water</h3>
 						<p class="text-sm text-muted-foreground leading-relaxed">
-							Set weight goals, track progress, and log water intake with quick-add buttons.
+							Set a weight goal and track your progress. Log water with quick-tap buttons to stay
+							hydrated.
 						</p>
 					</div>
 				</div>
@@ -463,9 +466,7 @@
 			<div class="container px-4 md:px-6 mx-auto">
 				<div class="text-center max-w-2xl mx-auto mb-12">
 					<h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Simple pricing</h2>
-					<p class="text-muted-foreground text-lg">
-						Start with a 7-day free trial. Cancel anytime.
-					</p>
+					<p class="text-muted-foreground text-lg">Try free for 7 days. Cancel anytime.</p>
 				</div>
 
 				<div class="max-w-sm mx-auto">
@@ -478,7 +479,7 @@
 								<span class="text-4xl font-bold">$3</span>
 								<span class="text-muted-foreground">/month</span>
 							</div>
-							<p class="text-xs text-muted-foreground">7-day free trial. Cancel anytime.</p>
+							<p class="text-xs text-muted-foreground">Try free for 7 days</p>
 						</div>
 						<div class="space-y-3">
 							{#each features as feature (feature)}
