@@ -179,13 +179,13 @@
 								</div>
 								<div class="mt-2 flex items-center gap-6">
 									<div class="flex flex-col items-center gap-1">
-										<span class="text-sm font-bold text-blue-500 dark:text-blue-400">
+										<span class="text-sm font-bold" style="color: oklch(0.65 0.14 25)">
 											24<span class="text-muted-foreground/60 font-medium">/182g</span>
 										</span>
 										<div class="h-1.5 w-16 overflow-hidden rounded-full bg-muted">
 											<div
-												class="h-full rounded-full bg-blue-500 dark:bg-blue-400"
-												style="width: 13%"
+												class="h-full rounded-full"
+												style="width: 13%; background: oklch(0.65 0.14 25)"
 											></div>
 										</div>
 										<span
@@ -194,13 +194,13 @@
 										>
 									</div>
 									<div class="flex flex-col items-center gap-1">
-										<span class="text-sm font-bold text-amber-500 dark:text-amber-400">
+										<span class="text-sm font-bold" style="color: oklch(0.65 0.10 250)">
 											72<span class="text-muted-foreground/60 font-medium">/212g</span>
 										</span>
 										<div class="h-1.5 w-16 overflow-hidden rounded-full bg-muted">
 											<div
-												class="h-full rounded-full bg-amber-500 dark:bg-amber-400"
-												style="width: 34%"
+												class="h-full rounded-full"
+												style="width: 34%; background: oklch(0.65 0.10 250)"
 											></div>
 										</div>
 										<span
@@ -209,13 +209,13 @@
 										>
 									</div>
 									<div class="flex flex-col items-center gap-1">
-										<span class="text-sm font-bold text-rose-500 dark:text-rose-400">
+										<span class="text-sm font-bold" style="color: oklch(0.75 0.12 85)">
 											36<span class="text-muted-foreground/60 font-medium">/94g</span>
 										</span>
 										<div class="h-1.5 w-16 overflow-hidden rounded-full bg-muted">
 											<div
-												class="h-full rounded-full bg-rose-500 dark:bg-rose-400"
-												style="width: 38%"
+												class="h-full rounded-full"
+												style="width: 38%; background: oklch(0.75 0.12 85)"
 											></div>
 										</div>
 										<span
@@ -284,14 +284,14 @@
 											cy="20"
 											r="16"
 											fill="none"
-											class="stroke-blue-500"
+											class="stroke-secondary"
 											stroke-width="3"
 											stroke-linecap="round"
 											stroke-dasharray="100.53"
 											stroke-dashoffset="20"
 										/>
 									</svg>
-									<Droplets class="absolute inset-0 m-auto size-5 text-blue-500" />
+									<Droplets class="absolute inset-0 m-auto size-5 text-secondary" />
 								</div>
 								<div class="min-w-0 flex-1">
 									<div class="flex items-baseline gap-1">
@@ -353,15 +353,18 @@
 											<div class="flex items-center justify-between">
 												<div class="flex items-center gap-1">
 													<span
-														class="rounded-md bg-blue-500/10 px-1.5 py-0.5 text-[10px] font-semibold text-blue-500 dark:bg-blue-400/10 dark:text-blue-400"
+														class="rounded-md px-1.5 py-0.5 text-[10px] font-semibold"
+														style="background: oklch(0.65 0.14 25 / 0.15); color: oklch(0.65 0.14 25)"
 														>24g P</span
 													>
 													<span
-														class="rounded-md bg-amber-500/10 px-1.5 py-0.5 text-[10px] font-semibold text-amber-500 dark:bg-amber-400/10 dark:text-amber-400"
+														class="rounded-md px-1.5 py-0.5 text-[10px] font-semibold"
+														style="background: oklch(0.65 0.10 250 / 0.15); color: oklch(0.65 0.10 250)"
 														>72g C</span
 													>
 													<span
-														class="rounded-md bg-rose-500/10 px-1.5 py-0.5 text-[10px] font-semibold text-rose-500 dark:bg-rose-400/10 dark:text-rose-400"
+														class="rounded-md px-1.5 py-0.5 text-[10px] font-semibold"
+														style="background: oklch(0.75 0.12 85 / 0.15); color: oklch(0.75 0.12 85)"
 														>36g F</span
 													>
 												</div>
@@ -399,97 +402,57 @@
 					</p>
 				</div>
 
-				<div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-					<div class="rounded-2xl bg-muted/40 p-6">
+				<div class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+					<div class="rounded-2xl border border-border/50 bg-card/30 p-6">
 						<div
-							class="size-12 rounded-lg bg-orange-100 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400 flex items-center justify-center mb-4"
+							class="size-11 rounded-xl flex items-center justify-center mb-4"
+							style="background: oklch(0.7 0.13 50 / 0.15); color: oklch(0.7 0.13 50)"
 						>
-							<Camera class="size-6" />
+							<Camera class="size-5" />
 						</div>
-						<h3 class="text-lg font-bold mb-3">AI Meal Logging</h3>
-						<ul class="space-y-2 text-sm text-muted-foreground">
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Snap a photo or
-								describe your meal
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>AI estimates
-								calories and macros instantly
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Manual entry option
-								too
-							</li>
-						</ul>
+						<h3 class="text-base font-bold mb-2">AI Meal Logging</h3>
+						<p class="text-sm text-muted-foreground leading-relaxed">
+							Snap a photo or describe your meal. AI estimates calories and macros instantly.
+						</p>
 					</div>
 
-					<div class="rounded-2xl bg-muted/40 p-6">
+					<div class="rounded-2xl border border-border/50 bg-card/30 p-6">
 						<div
-							class="size-12 rounded-lg bg-blue-100 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 flex items-center justify-center mb-4"
+							class="size-11 rounded-xl flex items-center justify-center mb-4"
+							style="background: oklch(0.75 0.12 85 / 0.15); color: oklch(0.75 0.12 85)"
 						>
-							<LayoutDashboard class="size-6" />
+							<LayoutDashboard class="size-5" />
 						</div>
-						<h3 class="text-lg font-bold mb-3">Smart Dashboard</h3>
-						<ul class="space-y-2 text-sm text-muted-foreground">
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Track calories,
-								protein, carbs, and fat
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Visual progress
-								rings and bars
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Date navigation to
-								review history
-							</li>
-						</ul>
+						<h3 class="text-base font-bold mb-2">Smart Dashboard</h3>
+						<p class="text-sm text-muted-foreground leading-relaxed">
+							Track calories, protein, carbs, and fat with visual progress rings and daily history.
+						</p>
 					</div>
 
-					<div class="rounded-2xl bg-muted/40 p-6">
+					<div class="rounded-2xl border border-border/50 bg-card/30 p-6">
 						<div
-							class="size-12 rounded-lg bg-purple-100 dark:bg-purple-900/20 text-purple-600 dark:text-purple-400 flex items-center justify-center mb-4"
+							class="size-11 rounded-xl flex items-center justify-center mb-4"
+							style="background: oklch(0.7 0.12 145 / 0.15); color: oklch(0.7 0.12 145)"
 						>
-							<Sparkles class="size-6" />
+							<Sparkles class="size-5" />
 						</div>
-						<h3 class="text-lg font-bold mb-3">AI Food Assistant</h3>
-						<ul class="space-y-2 text-sm text-muted-foreground">
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Get personalized
-								meal suggestions
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Ask nutrition
-								questions
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Learns your
-								preferences over time
-							</li>
-						</ul>
+						<h3 class="text-base font-bold mb-2">AI Food Assistant</h3>
+						<p class="text-sm text-muted-foreground leading-relaxed">
+							Get personalized meal suggestions and nutrition advice. Learns your preferences over time.
+						</p>
 					</div>
 
-					<div class="rounded-2xl bg-muted/40 p-6">
+					<div class="rounded-2xl border border-border/50 bg-card/30 p-6">
 						<div
-							class="size-12 rounded-lg bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 flex items-center justify-center mb-4"
+							class="size-11 rounded-xl flex items-center justify-center mb-4"
+							style="background: oklch(0.65 0.10 195 / 0.15); color: oklch(0.65 0.10 195)"
 						>
-							<Scale class="size-6" />
+							<Scale class="size-5" />
 						</div>
-						<h3 class="text-lg font-bold mb-3">Weight & Water Tracking</h3>
-						<ul class="space-y-2 text-sm text-muted-foreground">
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Set and track weight
-								goals
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Quick-add water
-								buttons
-							</li>
-							<li class="flex items-center gap-2">
-								<span class="size-1 rounded-full bg-muted-foreground/50"></span>Imperial or metric
-								units
-							</li>
-						</ul>
+						<h3 class="text-base font-bold mb-2">Weight & Water Tracking</h3>
+						<p class="text-sm text-muted-foreground leading-relaxed">
+							Set weight goals, track progress, and log water intake with quick-add buttons.
+						</p>
 					</div>
 				</div>
 			</div>
